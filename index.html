@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ennur Pekdemir | Kişisel Portfolyo</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Ennur Pekdemir - Bilgisayar Mühendisliği Öğrencisi ve Backend Geliştirici Portfolyosu. Spring Boot, Java, Veritabanı Sistemleri ve Yapay Zeka projeleri.">
+  <meta name="keywords" content="Ennur Pekdemir, Bilgisayar Mühendisliği, Java, Spring Boot, SQL, Portfolyo, Geliştirici, Backend, Yazılım">
+  <meta name="author" content="Ennur Pekdemir">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ennur Pekdemir | Kişisel Portfolyo">
+  <meta property="og:description" content="Spring Boot, Java ve Yapay Zeka destekli projeler geliştiren bilgisayar mühendisliği öğrencisi.">
+  <meta property="og:image" content="assets/images/hero-developer.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Style Link -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div class="loader-wrapper" id="loader">
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        ENNUR<span class="logo-dot">.</span>
+      </a>
+      
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero" class="nav-link active">Ana Sayfa</a></li>
+          <li><a href="#about" class="nav-link">Hakkımda</a></li>
+          <li><a href="#tech" class="nav-link">Teknolojiler</a></li>
+          <li><a href="#projects" class="nav-link">Projeler</a></li>
+          <li><a href="#education" class="nav-link">Eğitim</a></li>
+          <li><a href="#contact" class="nav-link">İletişim</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Menüyü Aç">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Staj & İş Fırsatlarına Açık
+          </div>
+          <h1 class="hero-title">
+            Merhaba, Ben
+            <span>Ennur Pekdemir</span>
+          </h1>
+          <h2 class="hero-subtitle">Bilgisayar Mühendisliği Öğrencisi</h2>
+          <p class="hero-desc">
+            Backend geliştirme, Spring Boot, Veritabanı Sistemleri ve Yapay Zeka Destekli Yazılımlar üzerine çalışıyorum. Temiz kod prensiplerini ve modern yazılım mimarilerini projelerime uyguluyorum.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              Projelerimi Gör
+              <i data-lucide="arrow-right" style="width: 18px; height: 18px;"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <i data-lucide="github" style="width: 18px; height: 18px;"></i>
+              GitHub Profilim
+            </a>
+            <a href="#contact" class="btn btn-outline">İletişime Geç</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-img-container">
+            <img src="assets/images/hero-developer.png" alt="Yazılım Geliştirici İllüstrasyonu" width="480" height="400">
+          </div>
+          <div class="hero-bg-decoration"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Biyografi</span>
+        <h2 class="section-title">Hakkımda</h2>
+        <p class="section-subtitle">Yazılım dünyasında kendimi sürekli geliştiren bir mühendis adayıyım.</p>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-content">
+          <h3 class="about-title">Merhaba, Ben Ennur</h3>
+          <p class="about-text">
+            Bilgisayar Mühendisliği öğrencisi olarak, yazılım geliştirmenin özellikle sistemlerin arka yüzünü oluşturan <strong>Backend Geliştirme</strong> alanına odaklanıyorum.
+          </p>
+          <p class="about-text">
+            Java ekosistemine, özellikle <strong>Spring Boot</strong> çatısına yoğun bir ilgim var. Veri yönetimi ve ilişkisel veritabanı tasarımları (SQL/MySQL) üzerine çalışarak, ölçeklenebilir ve güvenli servisler tasarlamayı hedefliyorum.
+          </p>
+          <p class="about-text">
+            Aynı zamanda yapay zeka destekli projelere ilgi duyuyor ve modern algoritmaları pratik backend uygulamalarıyla entegre ederek yenilikçi çözümler üretmeye çalışıyorum. Sürekli öğrenme motivasyonumla, her gün yeni bir teknoloji ve mimari tasarım kalıbı öğrenmeyi amaçlıyorum.
+          </p>
+          
+          <div class="about-features">
+            <div class="about-feature-item">
+              <i data-lucide="code-2" class="about-feature-icon"></i>
+              <div class="about-feature-text">
+                <h4>Backend Odaklı</h4>
+                <p>Java ve Spring Boot ile güçlü RESTful API'ler geliştiriyorum.</p>
+              </div>
+            </div>
+            <div class="about-feature-item">
+              <i data-lucide="database" class="about-feature-icon"></i>
+              <div class="about-feature-text">
+                <h4>Veritabanı Tasarımı</h4>
+                <p>İlişkisel veritabanları, normalizasyon ve sorgu optimizasyonu.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Proje Deneyimi</div>
+            <div class="stat-desc">Akademik ve kişisel projeler</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Şu An Öğrenilen</div>
+            <div class="stat-desc">Security, JWT, Mimari Tasarımlar</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies Section -->
+  <section class="section" id="tech" style="background-color: #ffffff; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Yetenekler</span>
+        <h2 class="section-title">Teknolojiler</h2>
+        <p class="section-subtitle">Projelerimde kullandığım programlama dilleri, kütüphaneler ve geliştirme araçları.</p>
+      </div>
+
+      <div class="tech-grid">
+        <!-- Java -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="coffee" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">Java</h3>
+          <p class="tech-desc">Nesne yönelimli backend geliştirmede temel dilim.</p>
+        </div>
+
+        <!-- Spring Boot -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="cpu" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">Spring Boot</h3>
+          <p class="tech-desc">REST API'ler ve mikroservis mimarileri geliştirdiğim ana çatı.</p>
+        </div>
+
+        <!-- MySQL -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="database" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">MySQL</h3>
+          <p class="tech-desc">İlişkisel veritabanı yönetimi ve tablo yapılandırmaları.</p>
+        </div>
+
+        <!-- SQL -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="terminal" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">SQL</h3>
+          <p class="tech-desc">Karmaşık veritabanı sorguları ve optimizasyon işlemleri.</p>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="braces" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">JavaScript</h3>
+          <p class="tech-desc">Kullanıcı etkileşimleri ve dinamik frontend geliştirme.</p>
+        </div>
+
+        <!-- HTML5 -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="file-code" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">HTML</h3>
+          <p class="tech-desc">Semantik web sayfaları ve içerik yapılandırma standartları.</p>
+        </div>
+
+        <!-- CSS3 -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="palette" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">CSS</h3>
+          <p class="tech-desc">Modern, responsive, esnek ve estetik web tasarımları.</p>
+        </div>
+
+        <!-- React -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="layers" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">React</h3>
+          <p class="tech-desc">Modüler bileşen bazlı web arayüzleri geliştirme.</p>
+        </div>
+
+        <!-- Git -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="git-branch" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">Git</h3>
+          <p class="tech-desc">Versiyon kontrolü ve kod değişiklik takipleri.</p>
+        </div>
+
+        <!-- GitHub -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="github" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">GitHub</h3>
+          <p class="tech-desc">Takım işbirliği ve açık kaynaklı kod havuzları yönetimi.</p>
+        </div>
+
+        <!-- Python -->
+        <div class="tech-card">
+          <div class="tech-icon-container">
+            <i data-lucide="code" style="width: 24px; height: 24px;"></i>
+          </div>
+          <h3 class="tech-name">Python</h3>
+          <p class="tech-desc">Veri analizi, otomasyon ve makine öğrenmesi modelleri.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Vitrin</span>
+        <h2 class="section-title">Projelerim</h2>
+        <p class="section-subtitle">Geliştirdiğim yapay zeka destekli platformlar, web uygulamaları ve backend sistemleri.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- FloraDoc -->
+        <article class="project-card" data-project-id="floradoc">
+          <div class="project-img-wrapper">
+            <img src="assets/images/floradoc.png" alt="FloraDoc Tomato Disease AI UI Mockup" class="project-img" width="375" height="235">
+            <div class="project-img-overlay">
+              <span class="btn btn-outline" style="color: #ffffff; border-color: #ffffff;">Detayları Gör</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">FloraDoc</h3>
+            <p class="project-desc">
+              Yapay zeka destekli domates yaprak hastalığı tespit sistemi. Bitki yaprak fotoğraflarını CNN modelleriyle analiz ederek hastalık teşhisi yapar ve tedavi önerileri sunar.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">TensorFlow</span>
+              <span class="project-tag">CNN</span>
+              <span class="project-tag">Image Processing</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="github" style="width: 16px; height: 16px;"></i>
+                GitHub
+              </a>
+              <button class="project-link details-btn" style="background: none; border: none; cursor: pointer; font-family: inherit;">
+                <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+                Detayları Gör
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Credit Risk Analysis Platform -->
+        <article class="project-card" data-project-id="credit-risk">
+          <div class="project-img-wrapper">
+            <img src="assets/images/credit-risk.png" alt="Credit Risk Platform UI Mockup" class="project-img" width="375" height="235">
+            <div class="project-img-overlay">
+              <span class="btn btn-outline" style="color: #ffffff; border-color: #ffffff;">Detayları Gör</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Credit Risk Analysis Platform</h3>
+            <p class="project-desc">
+              Yapay zeka destekli kredi risk değerlendirme ve karar destek sistemi. Kredi başvurularını ve finansal verileri yapay zeka modelleriyle işleyerek risk puanlaması ve raporlama yapar.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">SQL</span>
+              <span class="project-tag">Machine Learning</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="github" style="width: 16px; height: 16px;"></i>
+                GitHub
+              </a>
+              <button class="project-link details-btn" style="background: none; border: none; cursor: pointer; font-family: inherit;">
+                <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+                Detayları Gör
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Recipe Sharing Platform -->
+        <article class="project-card" data-project-id="recipe-sharing">
+          <div class="project-img-wrapper">
+            <img src="assets/images/recipe-sharing.png" alt="Recipe Sharing UI Mockup" class="project-img" width="375" height="235">
+            <div class="project-img-overlay">
+              <span class="btn btn-outline" style="color: #ffffff; border-color: #ffffff;">Detayları Gör</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Recipe Sharing Platform</h3>
+            <p class="project-desc">
+              Tarif paylaşımı ve kullanıcı etkileşim sistemi. Kullanıcıların yemek tariflerini paylaşabildiği, yorumlayabildiği, oy verebildiği ve kategorize edebildiği kapsamlı bir sosyal platform.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">MySQL</span>
+              <span class="project-tag">REST API</span>
+              <span class="project-tag">Bootstrap</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                <i data-lucide="github" style="width: 16px; height: 16px;"></i>
+                GitHub
+              </a>
+              <button class="project-link details-btn" style="background: none; border: none; cursor: pointer; font-family: inherit;">
+                <i data-lucide="external-link" style="width: 16px; height: 16px;"></i>
+                Detayları Gör
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Banner Section -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="github-banner">
+        <div class="github-grid">
+          <div class="github-info">
+            <h3>GitHub Profilim</h3>
+            <p>
+              Geliştirdiğim projelerin açık kaynaklı kodlarını, çalışmalarımı ve commit geçmişimi incelemek için GitHub profilimi ziyaret edebilirsiniz.
+            </p>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background-color: #ffffff; color: var(--primary-color); box-shadow: 0 4px 14px rgba(255,255,255,0.1);">
+              <i data-lucide="github" style="width: 18px; height: 18px; color: var(--primary-color);"></i>
+              GitHub Profilime Git
+            </a>
+          </div>
+          
+          <div class="github-stats-row">
+            <div class="github-stat-box">
+              <div class="github-stat-num">15+</div>
+              <div class="github-stat-title">Repo Sayısı</div>
+              <div class="github-stat-sub">Aktif & Arşivlenmiş</div>
+            </div>
+            <div class="github-stat-box">
+              <div class="github-stat-num">3+</div>
+              <div class="github-stat-title">Aktif Proje</div>
+              <div class="github-stat-sub">Devam Eden Geliştirme</div>
+            </div>
+            <div class="github-stat-box">
+              <div class="github-stat-num">Java</div>
+              <div class="github-stat-title">Favori Dil</div>
+              <div class="github-stat-sub">Spring Boot Ağırlıklı</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Now Learning Section -->
+  <section class="section" id="education" style="background-color: #ffffff; border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="edu-learning-grid">
+        <!-- Education Card -->
+        <div class="edu-card">
+          <div class="section-badge" style="margin-bottom: 1rem;">Akademik</div>
+          <h3 class="section-title" style="font-size: 1.75rem; text-align: left; margin-bottom: 1.5rem;">Eğitim</h3>
+          
+          <div class="edu-meta">
+            <div>
+              <h4 class="edu-degree">Bilgisayar Mühendisliği</h4>
+              <span class="edu-school">Lisans Derecesi</span>
+            </div>
+            <span class="edu-date">Devam Ediyor</span>
+          </div>
+          
+          <h4 class="edu-title-sub">
+            <i data-lucide="book-open" style="width: 18px; height: 18px;"></i>
+            İlgilenilen Alanlar
+          </h4>
+          <ul class="edu-list">
+            <li class="edu-list-item">
+              <i data-lucide="check" class="edu-list-icon" style="width: 16px; height: 16px;"></i>
+              Backend Development (Sunucu Tarafı)
+            </li>
+            <li class="edu-list-item">
+              <i data-lucide="check" class="edu-list-icon" style="width: 16px; height: 16px;"></i>
+              Software Engineering (Yazılım Mühendisliği)
+            </li>
+            <li class="edu-list-item">
+              <i data-lucide="check" class="edu-list-icon" style="width: 16px; height: 16px;"></i>
+              Database Systems (Veritabanı Sistemleri)
+            </li>
+            <li class="edu-list-item">
+              <i data-lucide="check" class="edu-list-icon" style="width: 16px; height: 16px;"></i>
+              Artificial Intelligence (Yapay Zeka)
+            </li>
+            <li class="edu-list-item">
+              <i data-lucide="check" class="edu-list-icon" style="width: 16px; height: 16px;"></i>
+              Web Technologies (Web Teknolojileri)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Currently Learning Card -->
+        <div>
+          <div class="section-badge" style="margin-bottom: 1rem;">Gelişim Yol haritası</div>
+          <h3 class="section-title" style="font-size: 1.75rem; text-align: left; margin-bottom: 1.5rem;">Şu Anda Öğreniyorum</h3>
+          
+          <div class="learning-checklist">
+            <div class="learning-item">
+              <div class="learning-check-wrapper">
+                <i data-lucide="check" style="width: 16px; height: 16px;"></i>
+              </div>
+              <span class="learning-text">Spring Boot Security</span>
+            </div>
+            
+            <div class="learning-item">
+              <div class="learning-check-wrapper">
+                <i data-lucide="check" style="width: 16px; height: 16px;"></i>
+              </div>
+              <span class="learning-text">JWT Authentication</span>
+            </div>
+            
+            <div class="learning-item">
+              <div class="learning-check-wrapper">
+                <i data-lucide="check" style="width: 16px; height: 16px;"></i>
+              </div>
+              <span class="learning-text">REST API Development</span>
+            </div>
+            
+            <div class="learning-item">
+              <div class="learning-check-wrapper">
+                <i data-lucide="check" style="width: 16px; height: 16px;"></i>
+              </div>
+              <span class="learning-text">SQL Optimization</span>
+            </div>
+            
+            <div class="learning-item">
+              <div class="learning-check-wrapper">
+                <i data-lucide="check" style="width: 16px; height: 16px;"></i>
+              </div>
+              <span class="learning-text">Git & GitHub</span>
+            </div>
+            
+            <div class="learning-item">
+              <div class="learning-check-wrapper">
+                <i data-lucide="check" style="width: 16px; height: 16px;"></i>
+              </div>
+              <span class="learning-text">Software Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Bağlantı</span>
+        <h2 class="section-title">İletişim</h2>
+        <p class="section-subtitle">Sorularınız, iş ortaklıkları veya staj fırsatları için mesaj gönderebilirsiniz.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info Column -->
+        <div class="contact-info">
+          <div>
+            <h3 class="about-title" style="margin-bottom: 1rem;">Benimle İletişime Geçin</h3>
+            <p class="about-text" style="margin-bottom: 2rem;">
+              Aşağıdaki iletişim kanallarından doğrudan bana ulaşabilir veya formu doldurarak mesaj bırakabilirsiniz. En kısa sürede dönüş yapmaya çalışacağım.
+            </p>
+            
+            <div class="contact-details">
+              <div class="contact-method">
+                <div class="contact-icon-wrapper">
+                  <i data-lucide="mail" style="width: 20px; height: 20px;"></i>
+                </div>
+                <div class="contact-method-text">
+                  <h4>E-posta</h4>
+                  <p>ennurpekdemir@gmail.com</p>
+                </div>
+              </div>
+              
+              <div class="contact-method">
+                <div class="contact-icon-wrapper">
+                  <i data-lucide="map-pin" style="width: 20px; height: 20px;"></i>
+                </div>
+                <div class="contact-method-text">
+                  <h4>Konum</h4>
+                  <p>Türkiye</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <h4 class="contact-socials-title">Sosyal Medya Kanalları</h4>
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+                <i data-lucide="github" style="width: 20px; height: 20px;"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                <i data-lucide="linkedin" style="width: 20px; height: 20px;"></i>
+              </a>
+              <a href="mailto:ennurpekdemir@gmail.com" class="social-link" aria-label="Email">
+                <i data-lucide="mail" style="width: 20px; height: 20px;"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact-card">
+          <form id="contact-form">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name" class="form-label">Ad Soyad</label>
+                <input type="text" id="name" class="form-control" placeholder="Adınız Soyadınız" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">E-posta</label>
+                <input type="email" id="email" class="form-control" placeholder="E-posta adresiniz" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Mesaj</label>
+              <textarea id="message" class="form-control" placeholder="Mesajınız..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit-btn">
+              Gönder
+              <i data-lucide="send" style="width: 16px; height: 16px;"></i>
+            </button>
+            <div class="form-feedback" id="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="logo footer-logo">
+          ENNUR<span class="logo-dot">.</span>
+        </a>
+        <p class="footer-desc">
+          "Yazılım geliştirerek öğrenmeye, üretmeye ve kendimi geliştirmeye devam ediyorum."
+        </p>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 Ennur Pekdemir. Tüm Hakları Saklıdır.
+        </p>
+        <ul class="footer-nav">
+          <li><a href="#hero" class="footer-nav-link">Ana Sayfa</a></li>
+          <li><a href="#about" class="footer-nav-link">Hakkımda</a></li>
+          <li><a href="#tech" class="footer-nav-link">Teknolojiler</a></li>
+          <li><a href="#projects" class="footer-nav-link">Projeler</a></li>
+          <li><a href="#contact" class="footer-nav-link">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal -->
+  <div class="modal" id="project-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Proje Detayları</h3>
+        <button class="modal-close" id="modal-close" aria-label="Kapat">
+          <i data-lucide="x" style="width: 24px; height: 24px;"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img-container">
+          <img src="" alt="" id="modal-img" style="width: 100%; display: block;">
+        </div>
+        <p class="modal-desc" id="modal-desc"></p>
+        <h4 class="modal-tech-title">Kullanılan Teknolojiler</h4>
+        <div class="modal-tech-list" id="modal-tech-list"></div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="modal-github-link">
+          <i data-lucide="github" style="width: 16px; height: 16px;"></i>
+          GitHub'da İncele
+        </a>
+        <button class="btn btn-primary" id="modal-ok-btn">Kapat</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Interaction Script -->
+  <script src="script.js"></script>
+</body>
+</html>
