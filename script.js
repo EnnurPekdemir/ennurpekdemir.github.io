@@ -112,8 +112,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'image-processing': {
       title: 'Digital Image Processing Platform',
       image: 'assets/images/image-processing.png',
-      desc: 'Bu proje, piksel düzeyinde çeşitli filtreleme ve dönüştürme algoritmalarını bünyesinde barındıran kapsamlı bir dijital görüntü işleme yazılımıdır. Geliştirdiğim bu platform; Sobel ve Canny gibi kenar algılama algoritmaları, histogram eşitleme ile kontrast iyileştirme, Gaussian ve Median filtreleri ile gürültü azaltma, aşındırma (erosion) ve yayma (dilation) gibi morfolojik işlemleri yapabilir. Python ve OpenCV kütüphaneleriyle yazdığım çekirdek görüntü işleme fonksiyonları, PyQt5 ile tasarlanmış modern ve kullanıcı dostu bir grafik arayüz (GUI) üzerinden kontrol edilmektedir. Kullanıcılar yükledikleri resimler üzerinde gerçek zamanlı olarak bu görüntü işleme adımlarını uygulayabilmekte ve parametre ayarlarını dinamik olarak değiştirebilmektedirler.',
-      tech: ['Python', 'OpenCV', 'NumPy', 'PyQt5', 'Image Processing', 'GUI Design'],
+      desc: 'Bu proje, piksel düzeyinde çeşitli filtreleme ve dönüştürme algoritmalarını tarayıcı ortamında çalıştıran web tabanlı bir dijital görüntü işleme yazılımıdır. JavaScript ve HTML5 Canvas kullanarak geliştirdiğim bu platform; Sobel ve Canny gibi kenar algılama algoritmaları, histogram eşitleme ile kontrast iyileştirme, Gaussian ve Median filtreleri ile gürültü azaltma, aşındırma (erosion) ve yayma (dilation) gibi morfolojik işlemleri tamamen client-side (kullanıcı tarafında) çalıştırır. OpenCV.js entegrasyonu sayesinde yüksek performanslı görüntü analizi ve manipülasyonu sunar. Kullanıcılar yükledikleri resimler üzerinde gerçek zamanlı olarak bu görüntü işleme adımlarını uygulayabilmekte ve parametre ayarlarını tarayıcı arayüzünden dinamik olarak değiştirebilmektedirler.',
+      tech: ['JavaScript', 'HTML5 Canvas', 'OpenCV.js', 'CSS3', 'Image Processing', 'Web App'],
       github: 'https://github.com/EnnurPekdemir'
     }
   };
