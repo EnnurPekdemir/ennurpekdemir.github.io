@@ -108,6 +108,13 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'Lezzetli tariflerin paylaşıldığı ve yemek tutkunlarını bir araya getiren sosyal etkileşimli bir web platformudur. Spring Boot ve MySQL mimarisi üzerinde yükselen backend yapısı; kullanıcı kaydı ve güvenliği, dinamik tarif ekleme/düzenleme, resim yükleme ve gelişmiş arama filtreleme özelliklerini destekler. Kullanıcılar diğer tarifleri puanlayabilir, yorum yapabilir ve kendi tarif defterlerini oluşturabilirler. REST API yapısı sayesinde gelecekte mobil uygulamalarla entegre olmaya tamamen hazır, modüler ve güvenli bir altyapıya sahiptir.',
       tech: ['Spring Boot', 'Spring Security', 'MySQL', 'REST API', 'Thymeleaf', 'Bootstrap', 'Maven'],
       github: 'https://github.com/EnnurPekdemir'
+    },
+    'image-processing': {
+      title: 'Digital Image Processing Platform',
+      image: 'assets/images/image-processing.png',
+      desc: 'Bu proje, piksel düzeyinde çeşitli filtreleme ve dönüştürme algoritmalarını bünyesinde barındıran kapsamlı bir dijital görüntü işleme yazılımıdır. Geliştirdiğim bu platform; Sobel ve Canny gibi kenar algılama algoritmaları, histogram eşitleme ile kontrast iyileştirme, Gaussian ve Median filtreleri ile gürültü azaltma, aşındırma (erosion) ve yayma (dilation) gibi morfolojik işlemleri yapabilir. Python ve OpenCV kütüphaneleriyle yazdığım çekirdek görüntü işleme fonksiyonları, PyQt5 ile tasarlanmış modern ve kullanıcı dostu bir grafik arayüz (GUI) üzerinden kontrol edilmektedir. Kullanıcılar yükledikleri resimler üzerinde gerçek zamanlı olarak bu görüntü işleme adımlarını uygulayabilmekte ve parametre ayarlarını dinamik olarak değiştirebilmektedirler.',
+      tech: ['Python', 'OpenCV', 'NumPy', 'PyQt5', 'Image Processing', 'GUI Design'],
+      github: 'https://github.com/EnnurPekdemir'
     }
   };
 
